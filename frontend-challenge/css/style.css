@@ -1,0 +1,139 @@
+body {
+  background-color: #31326c;
+  background-image: url(../images/status-bar01.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  width: 100%;
+  height: 74px;
+  float: left;
+}
+
+/* List Styling */
+ul{
+  list-style: none;
+  width: 100%;
+  float: left;
+}
+
+.navbar {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.navbar>li {
+  list-style: none;
+  float: left;
+
+}
+
+/* Back chevron icon */
+.button_01 {
+  width:5%;
+  padding-top: 31px;
+  color: white;
+}
+
+/* "More" 3-dots menu */
+.button_02 {
+  width: 5%;
+  text-align: right;
+  padding-top: 33px;
+  color: white;
+}
+
+/* "Back"*/
+.label {
+  width: 1%;
+  padding-top: 33px;
+  color: white;
+}
+
+/* "Arrival Times" */
+.title {
+  width: 89%;
+  text-align: center;
+  padding-top: 33px;
+  color: white;
+}
+
+/* Lower List Styling */
+.lower-list-titles {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.lower-list-titles>li {
+  color: white;
+  float: left;
+  list-style: none;
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.bus {
+  width: 10%;
+  text-align: left;
+}
+
+/* "Washington & State" */
+.stop {
+  width: 75%;
+  text-align: center;
+}
+
+.Arrive {
+  text-align: right;
+}
+
+/* Table */
+.table {
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 10px;
+  padding-bottom:10px;
+  background-color: white;
+  float: left;
+}
+
+.route-data div {
+  float: left;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #e9e9e9;
+  padding-top: 10px;
+}
+
+
+
+.line span {
+  display: block;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  border-right: 2px solid #e9e9e9;
+}
+
+.line {
+  width: 12.5%;
+  text-align: left;
+  color: #383a81;
+}
+
+.destination {
+  width: 65.5%;
+  padding-left: 24px;
+  color: #383a81;
+}
+
+.frequency span {
+  display: block;
+}
+
+.frequency {
+  width: 22%;
+  text-align: right;
+  color: #383a81;
+}
